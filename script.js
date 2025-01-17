@@ -10,7 +10,7 @@ const tName= vName.value.trim();
 
 const promise1= new Promise((resolve, reject)=>{
 	setTimeout(()=>{
-		if(tAge>= 18) resolve(alert(`Welcome,  ${tName}. You can vote.`));
+		if(tAge>= 18) resolve(alert(`Welcome, ${tName}. You can vote.`));
     else reject(alert(`Oh sorry ${tName}. You aren't old enough.`));
 	}, 4000);
 }
