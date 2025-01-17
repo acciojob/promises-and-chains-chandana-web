@@ -17,8 +17,8 @@ const promise1= new Promise((resolve, reject)=>{
 );
 	try {
 		const data= await promise1;
-		alert(data)
+		console.log(data)
 	} catch (error) {
-		alert(error);
+		console.log(error);
 	}
 });
